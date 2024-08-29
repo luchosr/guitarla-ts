@@ -28,7 +28,6 @@ export const useCart = () => {
       const newItem: CartItem = { ...item, quantity: 1 };
       setCart([...cart, newItem]);
     }
-    // saveLocalStorage();
   };
 
   function removeFromCart(id: Guitar['id']) {
