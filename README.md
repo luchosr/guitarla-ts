@@ -10,6 +10,6 @@
 
 - You can clone the repo, make a cd into the project folder and then run `pnpm install` for installing the dependencies, then you can run `pnpm dev` and the project will start on development mode.
 
-- If you want, you can access a projects deployment [here.](https://guitarla-ts-lilac.vercel.app/)
+- If you want, you can access a project's deployment [here.](https://guitarla-ts-lilac.vercel.app/)
 
 ![Guitarla main image](./public/img/Guitarla.png 'guitarla main image')
