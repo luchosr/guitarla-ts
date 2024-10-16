@@ -1,27 +1,15 @@
-# React + TypeScript + Vite
+# Guitar LA Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description and Motivation
 
-Currently, two official plugins are available:
+- A simple shopping cart project for practicing TypeScript and improve my coding skills using React.js, context API and CSS3. On these shopping cart you can see a list of guitars on the main view and select the ones who you want to buy, you can add a max of five units of each item, you can decrease or increase quantity, remove items and clear the shopping cart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- I used React.js for it simplicity and component oriented capabilities with TypeScript to avoid type-related errors at compile time and ship a secured code, and Context API for sharing a single source of state through nearby components.
 
-## Expanding the ESLint configuration
+## How to Install and Run the Project
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- You can clone the repo, make a cd into the project folder and then run `pnpm install` for installing the dependencies, then you can run `pnpm dev` and the project will start on development mode.
 
-- Configure the top-level `parserOptions` property like this:
+- If you want, you can access a deployment of the project [here.](https://guitarla-ts-lilac.vercel.app/)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![Guitarla main image](./public/img/Guitarla.png 'guitarla main image')
